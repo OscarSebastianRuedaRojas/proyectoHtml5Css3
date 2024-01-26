@@ -8,6 +8,7 @@
 body{
     background-color: var(--backgroundColorBody);
 }
+/* header */
 header{
     width: 100%;
     height: 60px;
@@ -39,8 +40,49 @@ header nav ul li{
 header nav ul li a{
     color: var(--colorLetterPrimary);
     text-decoration: none;
+    padding: 6px 8px;
 }
 header nav ul li a:hover{
-    border: 1px solid #087f5b;
+    outline: 1px solid #087f5b;
     padding: 6px 8px;
+}
+/* home */
+
+.Home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.Home .titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home .titulo h1{
+    color: var(--colorPrimary);
+    font-size: 80px;
+    height: 100px;
+    padding: 0px;
+}
+.Home .titulo p{
+    color: var(--colorLetterPrimary);
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.Home .titulo button{
+    background-color: var(--colorPrimary);
+    color: var(--colorLetterPrimary);
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+}
+.Home .img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
