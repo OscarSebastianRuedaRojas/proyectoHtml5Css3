@@ -90,6 +90,7 @@ header nav ul li a:hover{
 .img picture img{
     width: 80%;
 }
+/* About */
 .About{
     width: 100%;
     height: 100vh;
@@ -122,10 +123,71 @@ header nav ul li a:hover{
     color: var(--colorLetterPrimary);
 }
 .About .info button{
+    margin-top: 8px;
     width: 110px;
     font-size: 17px;
     background-color: var(--colorPrimary);
     color: var(--colorLetterPrimary);
     border: 0;
     padding: 5px;
+}
+/* menu */
+.Menu{
+    width: 100%;
+    height: 100vh;
+}
+.Menu .tituloMenu{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 0px 0px ;
+}
+.tituloMenu h4{
+    color: var(--colorPrimary);
+}
+
+.tituloMenu h2{
+    color: var(--colorLetterPrimary);
+    font-size: 40px;
+}
+.Menu .foods{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.foods .food{
+    border: 5px double;
+    background-color: var(--colorLetterPrimary);
+    width: 21%;
+}
+
+.food img{
+    width: 100%;
+}
+.food .image box-icon{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 5;
+}
+svg{
+    background-color: var(--colorPrimary);
+    margin-right: 5px;
+    position: absolute;
+}
+.food .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--colorLetterSecundary);
+}
+.food .text .price{
+    color: var(--colorPrimary);
+}
+.food2{
+    margin: 0px 40px;
 }
