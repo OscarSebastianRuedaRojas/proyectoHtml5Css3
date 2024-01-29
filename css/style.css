@@ -87,3 +87,45 @@ header nav ul li a:hover{
     align-items: center;
     justify-content: flex-start;
 }
+.img picture img{
+    width: 80%;
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.About .imgAbout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.imgAbout picture img{
+    width: 80%;
+}
+.About .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.About .info h4{
+    color: var(--colorPrimary);
+}
+.About .info h2{
+    color: var(--colorLetterPrimary);
+    font-size: 45px;
+}
+.About .info p{
+    color: var(--colorLetterPrimary);
+}
+.About .info button{
+    width: 110px;
+    font-size: 17px;
+    background-color: var(--colorPrimary);
+    color: var(--colorLetterPrimary);
+    border: 0;
+    padding: 5px;
+}
