@@ -14,6 +14,7 @@ body{
 }
 /* header */
 header{
+    background-color: var(--backgroundColorBody);
     position: fixed;
     width: 100vw;
     height: 10vh;
@@ -93,7 +94,7 @@ header nav ul li a:hover{
     justify-content: flex-start;
 }
 .img picture img{
-    width: 40vw;
+    width: 36vw;
 }
 /* About */
 .About{
