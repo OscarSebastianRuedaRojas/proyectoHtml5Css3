@@ -20,12 +20,23 @@
     }
     header nav ul{
         flex-direction: column;
+        width: 100vw;
+        justify-content: space-around;
+    }
+    header nav ul a{
+        font-size: 5vw;
     }
     header nav{
-        transform: translateX(-90vw);
+        width: 100vw;
+        height: 50vh;
+        margin-top: 10vh;
+        background-color: var(--backgroundColorBody);
+        transform: translateX(-150vw);
+        transition: transform 2s ease;
     }
-    .boton:hover ~ nav{
-        transform: translateX(0vw);
+    nav.active{
+        transform: translateX(-45vw);
+        
     }
     
     /* home */
@@ -53,7 +64,7 @@
         justify-content: center;
     }
     .Home .img{
-        height: 60vh;
+        height: 50vh;
         justify-content: center;
         align-items: flex-start;
     }
@@ -68,6 +79,7 @@
         justify-content: space-around;
     }
     .About .imgAbout{
+        padding-top: 3vh;
         justify-content: center;
         height: 50vh;
     }
@@ -91,8 +103,12 @@
         height: 190vh;
     }
     .Menu .tituloMenu{
+        padding-top: 6vh;
         align-items: center;
         text-align: center;
+    }
+    .Menu .tituloMenu h2{
+        font-size: 4vh;
     }
     .Menu .foods{
         flex-direction: column;
@@ -110,6 +126,7 @@
     }
     .Service .tituloService{
         text-align: center;
+        padding-top: 6vh;
     }
     .tituloService h2{
         font-size: 5vh;
@@ -136,6 +153,9 @@
         font-size: 4vw;
     }
     /* contact */
+    .container{
+        padding-top: 9vh;
+    }
     .caja h2{
         font-size: 7vw;
     }
