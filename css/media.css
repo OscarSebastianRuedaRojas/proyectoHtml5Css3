@@ -1,0 +1,169 @@
+@media(max-width: 540px){
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100vw;
+    }
+    header{
+        height: 10vh;
+    }
+    .boton{
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-top: 5vw;
+        margin-right: 5vw;
+        width: 10vw;
+        height: 10vw;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav{
+        transform: translateX(-90vw);
+    }
+    .boton:hover ~ nav{
+        transform: translateX(0vw);
+    }
+    
+    /* home */
+    .Home{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Home .titulo{
+        height: 40vh;
+        text-align: center;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        transform: translateY(2vh);
+    }
+    .Home .titulo h1{
+        margin-right: 2.2vw;
+        font-size: 11vw;
+        height: auto;
+    }
+    .Home .titulo p{
+        display: flex;
+        justify-content: center;
+    }
+    .Home .img{
+        height: 60vh;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .img picture img{
+        margin-top: 3vh;
+        width: 70vw;
+    }
+    /* about */
+    .About{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .About .imgAbout{
+        justify-content: center;
+        height: 50vh;
+    }
+    .imgAbout picture img{
+        width: 70vw;
+    }
+    .About .info{
+        height: 50vh;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+    .About .info h2{
+        font-size: 4vh;
+    }
+    .About .info p{
+        font-size: 2vh;
+    }
+    /* menu */
+    .Menu{
+        height: 190vh;
+    }
+    .Menu .tituloMenu{
+        align-items: center;
+        text-align: center;
+    }
+    .Menu .foods{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Menu .food{
+        width: 80vw;
+    }
+    .food2{
+        margin: 3vh 0vh;
+    }
+    /* service */
+    .Service{
+        height: 145vh;
+    }
+    .Service .tituloService{
+        text-align: center;
+    }
+    .tituloService h2{
+        font-size: 5vh;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services{
+        width: 70vw;
+    }
+    .services picture{
+        display: flex;
+        justify-content: center;
+    }
+    .services img{
+        width: 70%;
+    }
+    .services .text h4{
+        font-size: 6vw;
+        margin-bottom: 0vh;
+    }
+    .services .text p{
+        font-size: 4vw;
+    }
+    /* contact */
+    .caja h2{
+        font-size: 7vw;
+    }
+    .caja button{
+        font-size: 4vw;
+    }
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .infos{
+        padding-left: 15vw;
+    }
+    .infos h4{
+        font-size: 5vw;
+    }
+    .infos h4 hr{
+        width: 13vw;
+    }
+    .contactHijo{
+        padding-left: 0vw;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .red{
+        width: 8vw;
+    }
+}

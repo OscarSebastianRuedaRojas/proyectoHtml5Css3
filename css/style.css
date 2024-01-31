@@ -14,6 +14,7 @@ body{
 }
 /* header */
 header{
+    z-index: 10;
     background-color: var(--backgroundColorBody);
     position: fixed;
     width: 100vw;
@@ -51,6 +52,9 @@ header nav ul li a{
 header nav ul li a:hover{
     outline: 1px solid #087f5b;
     padding: 1vh 1.2vh;
+}
+.boton{
+    display: none;
 }
 /* home */
 
