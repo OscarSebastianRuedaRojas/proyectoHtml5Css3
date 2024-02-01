@@ -7,14 +7,20 @@
         width: 100vw;
     }
     header{
-        height: 10vh;
+        height: 8vh;
+    }
+    header h2{
+        font-size: 9vw;
+        margin-left: 3vw;
     }
     .boton{
+        background-color: var(--backgroundColorBody);
+        border: none;
         display: flex;
         position: absolute;
         right: 0;
-        margin-top: 5vw;
-        margin-right: 5vw;
+        margin-top: 3vw;
+        margin-right: 3vw;
         width: 10vw;
         height: 10vw;
     }
@@ -29,24 +35,25 @@
     header nav{
         width: 100vw;
         height: 50vh;
-        margin-top: 10vh;
+        margin-top: 8vh;
         background-color: var(--backgroundColorBody);
         transform: translateX(-150vw);
-        transition: transform 2s ease;
+        transition: transform 1s ease;
     }
     nav.active{
-        transform: translateX(-45vw);
+        transform: translateX(-37vw);
         
     }
     
     /* home */
     .Home{
         height: 100vh;
+        /* display: flex; */
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .Home .titulo{
-        height: 40vh;
+        height: 35vh;
         text-align: center;
         margin-left: 0;
         justify-content: center;
@@ -64,7 +71,8 @@
         justify-content: center;
     }
     .Home .img{
-        height: 50vh;
+        height: auto;
+        padding-bottom: 5vh;
         justify-content: center;
         align-items: flex-start;
     }
@@ -74,20 +82,26 @@
     }
     /* about */
     .About{
-        height: 100vh;
+        padding-top: 8vh;
+        height: auto;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .About .imgAbout{
-        padding-top: 3vh;
+        padding-top: 0;
         justify-content: center;
-        height: 50vh;
+        height: auto;
+    }
+    .imgAbout picture{
+        display: flex;
+        justify-content: center;
     }
     .imgAbout picture img{
-        width: 70vw;
+        width: 60vw;
+        margin: 0;
     }
     .About .info{
-        height: 50vh;
+        height: auto;
         justify-content: flex-start;
         text-align: center;
         align-items: center;
@@ -100,7 +114,7 @@
     }
     /* menu */
     .Menu{
-        height: 190vh;
+        height: 155vh;
     }
     .Menu .tituloMenu{
         padding-top: 6vh;
@@ -119,6 +133,9 @@
     }
     .food2{
         margin: 3vh 0vh;
+    }
+    .food .image i{
+        font-size: 8vw;
     }
     /* service */
     .Service{
@@ -153,8 +170,8 @@
         font-size: 4vw;
     }
     /* contact */
-    .container{
-        padding-top: 9vh;
+    .Contact{
+        padding-top: 8vh;
     }
     .caja h2{
         font-size: 7vw;
@@ -163,9 +180,10 @@
         font-size: 4vw;
     }
     footer{
+        
         flex-direction: column;
         align-items: flex-start;
-        
+        padding-bottom: 2.5vh;
     }
     .infos{
         padding-left: 15vw;

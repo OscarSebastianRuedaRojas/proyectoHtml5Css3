@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
@@ -75,7 +76,7 @@ header nav ul li a:hover{
 }
 .Home .titulo h1{
     color: var(--colorPrimary);
-    font-size: 6.5vw;
+    font-size: 6vw;
     height: 16.6vh;
     padding: 0px;
 }
@@ -103,7 +104,8 @@ header nav ul li a:hover{
 /* About */
 .About{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    padding-top: 10vh;
     display: flex;
     justify-content: space-between;
 }
@@ -115,7 +117,7 @@ header nav ul li a:hover{
 }
 .imgAbout picture img{
     margin-right: 5vw;
-    width: 35vw;
+    width: 30vw;
 }
 .About .info{
     width: 100vw;
@@ -146,7 +148,9 @@ header nav ul li a:hover{
 /* menu */
 .Menu{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 .Menu .tituloMenu{
     width: 100%;
@@ -176,20 +180,27 @@ header nav ul li a:hover{
     background-color: var(--colorLetterPrimary);
     width: 21vw;
 }
-
-.food img{
-    width: 100%;
-}
-.food .image box-icon{
+.food picture{
     display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    z-index: 5;
+    justify-content: center;
 }
-svg{
+.food img{
+    width: 80%;
+}
+
+.food .image{
+    position: relative;
+}
+
+.food .image i{
     background-color: var(--colorPrimary);
-    margin-right: 1vh;
+    border: solid var(--colorLetterSecundary);
     position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.5vh;
+    margin-right: 0.5vh;
+    font-size: 2vw;
 }
 .food .text{
     display: flex;
@@ -206,7 +217,7 @@ svg{
 /* service */
 .Service{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 .Service .tituloService{
     width: 100%;
@@ -234,8 +245,12 @@ svg{
 .services{
     width: 21vw;
 }
+.services picture{
+    display: flex;
+    justify-content: center;
+}
 .services img{
-    width: 100%;
+    width: 70%;
 }
 .services .text{
     display: flex;
@@ -250,7 +265,7 @@ svg{
 }
 .services .text p{
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: var(--colorLetterPrimary);
 }
 .Shipping{
@@ -259,7 +274,8 @@ svg{
 /* Contact */
 .Contact{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
+    padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
 }
