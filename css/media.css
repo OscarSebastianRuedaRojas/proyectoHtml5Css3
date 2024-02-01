@@ -36,7 +36,7 @@
         width: 100vw;
         height: 50vh;
         margin-top: 8vh;
-        background-color: var(--backgroundColorBody);
+        background-color: var(--backgroundColorMenuMovil);
         transform: translateX(-150vw);
         transition: transform 1s ease;
     }
